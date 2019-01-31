@@ -1,0 +1,9 @@
+console.log('当前执行文件路径：'+__filename);
+console.log('当前执行目录：'+__dirname);
+process.on('exit',()=>{
+    console.log('程序即将推出...');
+});
+console.log('接受参数：'+process.argv);
+console.log('当前进程PID：'+process.pid);
+console.log('当前CPU架构：'+process.arch);
+console.log('当前运行程序平台：'+process.platform);

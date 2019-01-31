@@ -1,0 +1,12 @@
+var hello = require('./HelloModel');
+var h1 = new hello();
+var h2 = new hello();
+h1.sayHello();
+h1.sayHello1();
+console.log(h1.getName());
+h1.setName('张三');
+console.log(h1.getName());
+console.log('---------h2');
+console.log(h2.getName());
+h2.setName('李四');
+console.log(h2.getName());
