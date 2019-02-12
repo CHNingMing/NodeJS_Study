@@ -12,4 +12,4 @@ connection.query(sql,function(err,data){
     console.log(data[0].date_id);
 });
 
-//connection.end();
+connection.end();
